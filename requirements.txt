@@ -1,0 +1,4 @@
+faker
+pandas
+pytest
+path
