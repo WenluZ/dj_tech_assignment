@@ -72,6 +72,9 @@ def test_process_data(sample_data):
         for col in ["customer_id", "name", "email", "total_purchase_amount", "segment"]
     )
 
+    # Check if the DataFrame has the expected number of rows
+    assert processed_df.shape[0] == 3
+
     # Check if the segment is calculated correctly
     assert list(processed_df.loc[processed_df["customer_id"] == 1, "segment"]) == [
         "Low"
