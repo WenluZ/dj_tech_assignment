@@ -5,7 +5,7 @@ This repository hosts a Python project designed to segment customer data into th
 ## Input and Output Examples.
 
 - **Input**:
-'''text
+'''
 [
   {"customer_id": 1, "name": "John Doe", "email": "john@example.com", "purchase_amount": 120.50, "purchase_date": "2023-01-15"},
   {"customer_id": 2, "name": "Jane Smith", "email": "jane@example.com", "purchase_amount": 75.20, "purchase_date": "2023-02-02"},
@@ -13,7 +13,7 @@ This repository hosts a Python project designed to segment customer data into th
 ]
 '''
 - **Output**:
-'''text
+'''
 customer_id	name	email	purchase_amount	segment
 1	John Doe	john@example.com	120.5	Medium
 2	Jane Smith	jane@example.com	75.2	Low
